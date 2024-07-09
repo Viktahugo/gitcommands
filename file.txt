@@ -9,4 +9,9 @@ git commit -m "[commit message]"  -> Commit changes
 git rm -r [file-name.txt]  -> Remove a file
 git branch -> List branches
 
-git commit --amend --reset-author
+git commit --amend --reset-author     
+
+git remote add origin ssh://git@github.com/[username]/[repository-name].git
+git push origin [branch name] => Push a branch to your remote repository
+git push -u origin [branch name]
+git push  => Push changes to remote repository
